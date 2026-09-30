@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cloudroots-reviews</title>
+  <meta name="description" content="Reviews and published case work for CloudRoots Infotech LLP." />
+  <link rel="canonical" href="https://isardeepg.github.io/Cloudroots-reviews/" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsarDeepG/IsarDeepG.github.io@main/cloudroots-reviews/styles.css" />
+  <style>
+    @media (max-width: 640px) {
+      .nav a:not(.btn) { display: none; }
+      .hero { padding: 2.4rem 0 2.2rem; }
+      .card { min-height: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="wrap">These 52 quotes are <strong>sample layout copy</strong>, not signed client testimonials. Featured case studies are from published CloudRoots work.</div>
+  </div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./">
+        <strong>Cloudroots</strong>
+        <span>-reviews</span>
+      </a>
+      <nav class="nav">
+        <a href="#cases">Case studies</a>
+        <a href="#reviews">Reviews</a>
+        <a class="btn" href="https://www.cloudroots.co.in/contact">Book audit</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">CloudRoots Infotech LLP · Delhi HQ</p>
+      <h1>What teams say about the seat and the audit.</h1>
+      <p class="lede">Dedicated QA and release readiness for SaaS and cybersecurity products — a named engineer in the sprint, or two weeks that name what will break before it does.</p>
+      <a class="btn" href="https://www.cloudroots.co.in/contact">Start on cloudroots.co.in</a>
+      <div class="stats">
+        <div class="stat"><b>52</b><span>sample review cards</span></div>
+        <div class="stat"><b>4</b><span>case-study threads</span></div>
+        <div class="stat"><b>2</b><span>offers: audit · seat</span></div>
+      </div>
+    </div>
+  </section>
+  <section id="cases">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--green)">Published work</p>
+      <h2>Case studies already on the main site</h2>
+      <p class="section-kicker">These names appear in CloudRoots project work. They are not review quotes.</p>
+      <div class="cases">
+        <article class="case">
+          <span class="chip">SERB · Oman</span>
+          <h3>Dynamic question-and-answer workflows</h3>
+          <p class="meta">Manual · API (Postman) · Performance (JMeter)</p>
+          <p>Questions changed at runtime, so the correct answer had to be computed on the fly across manual, API, and load paths.</p>
+          <p><a href="https://www.cloudroots.co.in/case-studies/serb/">Read the SERB case →</a></p>
+        </article>
+        <article class="case">
+          <span class="chip">CoTreat</span>
+          <h3>Healthcare product quality</h3>
+          <p class="meta">Case-study thread in the site rebuild</p>
+          <p>Named in the CloudRoots design source as a healthcare engagement.</p>
+        </article>
+        <article class="case">
+          <span class="chip">Curately</span>
+          <h3>SaaS quality inside the sprint</h3>
+          <p class="meta">Case-study thread in the site rebuild</p>
+          <p>Named in the CloudRoots design source.</p>
+        </article>
+        <article class="case">
+          <span class="chip">TitanDef</span>
+          <h3>Security-product release risk</h3>
+          <p class="meta">Case-study thread in the site rebuild</p>
+          <p>Named alongside SERB in the rebuild notes.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="reviews">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--green)">Review grid</p>
+      <h2>Fifty-two sample voices</h2>
+      <p class="section-kicker">Filter by offer or region. Cards stay tagged SAMPLE until you paste a signed quote.</p>
+      <input class="search" id="q" type="search" placeholder="Search role, industry, region…" />
+      <div class="filters" id="filters"></div>
+      <div class="grid" id="grid"></div>
+      <p class="empty" id="empty" hidden>No cards match that filter.</p>
+    </div>
+  </section>
+  <section id="submit">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--green)">Collect real ones</p>
+      <h2>Ask a client to write a review</h2>
+      <p class="section-kicker">Sends to info@cloudroots.co.in.</p>
+      <form class="form" action="mailto:info@cloudroots.co.in?subject=CloudRoots%20review" method="post" enctype="text/plain">
+        <input name="name" required placeholder="Name" />
+        <input name="role" placeholder="Role and company" />
+        <select name="offer">
+          <option value="audit">Release readiness audit</option>
+          <option value="seat">Dedicated QA seat</option>
+        </select>
+        <textarea name="review" rows="6" required placeholder="What changed after the engagement?"></textarea>
+        <button class="btn" type="submit">Email the review</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="wrap">
+      CloudRoots Infotech LLP ·
+      <a href="mailto:info@cloudroots.co.in">info@cloudroots.co.in</a> ·
+      <a href="https://www.cloudroots.co.in">cloudroots.co.in</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/gh/IsarDeepG/IsarDeepG.github.io@main/cloudroots-reviews/reviews.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
